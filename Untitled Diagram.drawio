@@ -1,17 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T05:52:06.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="vsEPCo8cmwJ8T85hh32a" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T06:46:16.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="3SORW2WeJekoMm248mPL" version="13.5.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="sJLSV0z1X43og4lplSQz-42" value="" style="endArrow=classic;html=1;exitX=0.81;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sJLSV0z1X43og4lplSQz-43">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="363.9999999999999" y="870" as="sourcePoint" />
-            <mxPoint x="513.9" y="870" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-0" value="DeepSeaPrisonMainWindow" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="160" width="170" height="286" as="geometry" />
+          <mxGeometry x="120" y="70" width="170" height="286" as="geometry" />
         </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-1" value="-towerList:table" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sJLSV0z1X43og4lplSQz-0">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -43,61 +37,49 @@
         <mxCell id="sJLSV0z1X43og4lplSQz-12" value="-OnClickEnter:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sJLSV0z1X43og4lplSQz-0">
           <mxGeometry y="260" width="170" height="26" as="geometry" />
         </mxCell>
-        <UserObject label="进入深海监狱数据请求" treeRoot="1" id="sJLSV0z1X43og4lplSQz-43">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="384.0000000000001" y="940" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="结算界面请求" treeRoot="1" id="sJLSV0z1X43og4lplSQz-44">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="474" y="856" width="140" height="50" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="sJLSV0z1X43og4lplSQz-45" value="" style="endArrow=classic;html=1;exitX=0.81;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-32" target="sJLSV0z1X43og4lplSQz-44">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="394.0999999999999" y="1403" as="sourcePoint" />
-            <mxPoint x="544" y="1403" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="数据请求回包" treeRoot="1" id="sJLSV0z1X43og4lplSQz-46">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="504" y="756" width="120" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="sJLSV0z1X43og4lplSQz-47" value="" style="endArrow=classic;html=1;exitX=0.524;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-30" target="sJLSV0z1X43og4lplSQz-46">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="374.0999999999999" y="853" as="sourcePoint" />
-            <mxPoint x="484" y="876.2140077821011" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sJLSV0z1X43og4lplSQz-48" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="297" y="820" as="sourcePoint" />
-            <mxPoint x="504" y="790" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sJLSV0z1X43og4lplSQz-49" value="" style="endArrow=classic;html=1;exitX=0.424;exitY=1.085;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-12" target="sJLSV0z1X43og4lplSQz-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="500" as="sourcePoint" />
-            <mxPoint x="300" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-50" value="服务器数据处理和其他数据的缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="480" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sJLSV0z1X43og4lplSQz-51" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-7" target="sJLSV0z1X43og4lplSQz-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="500" as="sourcePoint" />
-            <mxPoint x="300" y="450" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="380" y="430" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-52" value="本地配置表数据的缓存与处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="294" y="310" width="120" height="50" as="geometry" />
+          <mxGeometry x="90" y="435" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-41" target="FgVYlpJ3TIv6yeNzwKak-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-3" value="进入深海监狱数据请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="789" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-32" target="FgVYlpJ3TIv6yeNzwKak-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-5" value="结算界面请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="763" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-30" target="FgVYlpJ3TIv6yeNzwKak-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJLSV0z1X43og4lplSQz-31" target="FgVYlpJ3TIv6yeNzwKak-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-10" value="数据请求回包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="730" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-16" value="深海监狱主界面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="30" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-21" value="深海监狱结算界面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="30" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-13" value="DeepSeaPrisonData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="186" width="140" height="234" as="geometry" />
+          <mxGeometry x="80" y="500" width="140" height="234" as="geometry" />
         </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-14" value="-Init:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sJLSV0z1X43og4lplSQz-13">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -124,7 +106,7 @@
           <mxGeometry y="208" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-22" value="DeepSeaPrisonMgr" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="204" y="570" width="210" height="312" as="geometry" />
+          <mxGeometry x="340" y="500" width="210" height="312" as="geometry" />
         </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-23" value="-Init:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sJLSV0z1X43og4lplSQz-22">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -158,6 +140,30 @@
         </mxCell>
         <mxCell id="sJLSV0z1X43og4lplSQz-41" value="-ReqEnterPrisonScene:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sJLSV0z1X43og4lplSQz-22">
           <mxGeometry y="286" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-12" value="DeepSeaPrisonCompleteWindow" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="70" width="210" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-13" value="-ManualInit:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FgVYlpJ3TIv6yeNzwKak-12">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-14" value="-GetHeroIconCell:table" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FgVYlpJ3TIv6yeNzwKak-12">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-15" value="-OnHeroIconSpawn:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FgVYlpJ3TIv6yeNzwKak-12">
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-17" value="-GetAwardCell:table" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FgVYlpJ3TIv6yeNzwKak-12">
+          <mxGeometry y="104" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-18" value="-OnAwardSpawn:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FgVYlpJ3TIv6yeNzwKak-12">
+          <mxGeometry y="124" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-19" value="-YiWanWord:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FgVYlpJ3TIv6yeNzwKak-12">
+          <mxGeometry y="150" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgVYlpJ3TIv6yeNzwKak-20" value="-EnterNextPrison:void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FgVYlpJ3TIv6yeNzwKak-12">
+          <mxGeometry y="176" width="210" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
